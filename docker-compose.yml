@@ -1,0 +1,9 @@
+services:
+  fastapi-app:
+    build: .
+    ports:
+      - "9098:8000"
+    container_name: fastapi-server
+    restart: unless-stopped
+
+    
