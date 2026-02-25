@@ -24,5 +24,5 @@ def get_data() -> Dict[str, str]:
         "message": "Hello this is from server endpoint",
         "server": "FastAPI",
         "endpoint": "/data",
-        "version": "2.0"
+        "version": "2.0 & cicd pipeline is working fine"
     }
