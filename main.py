@@ -21,7 +21,7 @@ def health_check():
 def get_data() -> Dict[str, str]:
     """Data endpoint"""
     return {
-        "message": "Hello this is from server",
+        "message": "Hello this is from server endpoint",
         "server": "FastAPI",
         "endpoint": "/data",
         "version": "2.0"
