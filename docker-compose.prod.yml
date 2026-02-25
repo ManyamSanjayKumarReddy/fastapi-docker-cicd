@@ -1,0 +1,7 @@
+services:
+  fastapi-app:
+    image: sanjaykumar070/fastapi-app:latest
+    ports:
+      - "9098:8000"
+    container_name: fastapi-server
+    restart: unless-stopped
