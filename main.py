@@ -23,5 +23,6 @@ def get_data() -> Dict[str, str]:
     return {
         "message": "Hello this is from server",
         "server": "FastAPI",
-        "endpoint": "/data"
+        "endpoint": "/data",
+        "version": "2.0"
     }
