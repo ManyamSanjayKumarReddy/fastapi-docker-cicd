@@ -6,7 +6,7 @@ app = FastAPI(title="My FastAPI Server")
 @app.get("/")
 def read_root():
     """Root endpoint"""
-    return {"message": "Welcome to FastAPI Server"}
+    return {"message": "Welcome to FastAPI Server with CI/CD pipeline!"}
 
 @app.get("/health")
 def health_check():
